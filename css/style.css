@@ -1,0 +1,227 @@
+/* * {
+  padding: 0;
+  margin: 0;
+}
+ */
+
+body {
+  display: flex;
+  margin: 0;
+  padding-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #b1b1b1;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 100px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 300px;
+  display: inline;
+  margin: 50px;
+}
+
+nav ul a{
+  color: #6e7070;
+}
+
+h1 {
+  margin: 0px;
+  padding: 20px;
+  color: #6e7070;
+}
+
+
+.welcome {
+  margin: 0px;
+  text-align: center;
+  color: #393a3a;
+  padding-top: 10px;
+}
+
+
+
+/* 
+
+<div class="containerGrid">
+<div class="leftPart">About me</div>
+
+<div class="rightPatr">Contact me</div>
+
+<div class="belowContent">About me</div>
+
+
+</div>
+ */
+
+
+
+.containerGrid{
+  display: grid; 
+  margin: 0px 2%;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+      'leftPart leftPart rightPart'
+      'belowContent belowContent belowContent'
+      ;
+      
+}
+  
+.leftPart{
+  grid-area: leftPart;
+  margin: 0px 5%;
+  padding: 50px;
+}
+
+.rightPart{
+  grid-area: rightPart;
+  margin: 2px 5%;
+  padding: 50px;
+}
+
+.belowContent{
+  grid-area: belowContent;
+  margin: 0px 3%;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+/* 
+#about {
+
+} */
+
+
+
+
+
+/* main logo / nav */
+
+
+
+
+
+
+/* 
+.click {
+
+  justify-content: right;
+}
+
+a {
+
+  text-decoration: none;
+  color: #ffffff;
+  }
+  
+ul {
+  height: 200px;
+} */
+
+
+
+
+
+
+footer {
+  margin-top: auto;
+  background-color: #ffffff;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/*
+.heroimg {
+  width:auto 
+}
+
+
+
+
+
+
+
+
+/*
+
+.logo {
+  background: white;
+  height: 50%;
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+header {
+  padding: 20px;
+  background-color: #969696;
+  color: #ffffff;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+}
+
+
+
+.hero-banner {
+  display:flex;
+
+}
+
+#nav {
+  display:flex;
+  justify-content: flex-end;
+
+  
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
