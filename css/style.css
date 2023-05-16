@@ -1,9 +1,3 @@
-/* * {
-  padding: 0;
-  margin: 0;
-}
- */
-
 body {
   display: flex;
   margin: 0;
@@ -88,11 +82,7 @@ h1 {
 
 }
 
-/* .myWork{
-  margin: 0px 3%;
-  padding: 0px;
-  padding-bottom: 0px;
-} */
+
 
 .myProjects{
   grid-area:myProjects ;
@@ -108,6 +98,7 @@ h1 {
 
 .project{
 padding:0px;
+
 } 
 
 
@@ -121,92 +112,15 @@ footer {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-.project1{
-  display: flex;
-
-  align-content: center;
-  justify-content: center;
-
-
+.zoomed img{
+transition: 1s ease;
 }
 
-.project2{
-  display: flex;
-  justify-content:center;
-  align-content: center;
-
-
-}
-
-.project3{
-  display: grid;
-  justify-content:center;
-  align-content: center;
-  padding-left: 10px;
-} */
-
-
-
-
-
-
-/* 
-#about {
-
-} */
-
-
-
-
-
-/* main logo / nav */
-
-
-
-
-
-
-/* 
-.click {
-
-  justify-content: right;
-}
-
-a {
-
-  text-decoration: none;
-  color: #ffffff;
-  }
-  
-ul {
-  height: 200px;
-} */
-
-
-
-
-
-
-
-
-
-
-
-/*
-.heroimg {
-  width:auto 
+.zoomed img:hover{
+-webkit-transform: scale(1.5);
+-ms-transform: scale(1.5);
+transform: scale(1.5);
+transition: 1s ease;
 }
 
 
@@ -216,62 +130,5 @@ ul {
 
 
 
-/*
-
-.logo {
-  background: white;
-  height: 50%;
-  width: 50%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
 
 
-header {
-  padding: 20px;
-  background-color: #969696;
-  color: #ffffff;
-}
-
-header h1 {
-  display: inline-block;
-  font-size: 48px;
-}
-
-
-.nav {
-  height: 50px;
-  display: flex;
-  justify-content: right;
-  align-items: baseline;
-}
-
-
-
-.hero-banner {
-  display:flex;
-
-}
-
-#nav {
-  display:flex;
-  justify-content: flex-end;
-
-  
-}
-
-
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
