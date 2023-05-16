@@ -53,75 +53,109 @@ h1 {
 .containerGrid{
   display: grid; 
   align-items: space-evenly;
-padding-bottom: 0px ;
-  margin: 4% 4%;
+  padding-bottom: 0px ;
+  margin: 0% 1%;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: 
-      'leftPart leftPart rightPart'
+    grid-template-areas: 
+      'aboutMe aboutMe contactMe'
+      'belowContent belowContent belowContent'
       'belowContent belowContent belowContent'
       ;
-  
+
 }
   
-.leftPart{
-  grid-area: leftPart;
+.aboutMe{
+  grid-area: aboutMe;
+
   margin: 0px 3%;
-
   padding-bottom: 0px;
 }
 
-.rightPart{
-  grid-area: rightPart;
-  margin: 0px 6%;
-
-  padding-bottom: 0px;
+.contactMe{
+  grid-area: contactMe;
+  margin: 0px 5%;
 }
 
 
 .belowContent{
   display: grid;
-  align-items: space-evenly;
   grid-area: belowContent;
-  margin: 0px 2%;
+  /* margin: 0px 2%; */
+  /* grid-template-rows: 1fr;
+  grid-template-columns: 0fr; */
 
 
-  padding-top: 0px;
 }
 
-.myWork{
+/* .myWork{
   margin: 0px 3%;
   padding: 0px;
-  padding-bottom: 0;
-}
+  padding-bottom: 0px;
+} */
 
 .myProjects{
-  display: flex;
-  justify-content: space-evenly;
+  grid-area:myProjects ;
+  display: grid;
+  /* justify-content: space-evenly; */
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  'project project project'
+  'project project project'
+}
+
+
+.project{
+padding:0px;
+} 
+
+
+
+footer {
+  background-color: #ffffff;
+  width: 100%;
+  bottom: 0;
+  padding: 20px;
+  text-align: center;
 
 }
 
 
 
+
+
+
+
+
+
+
+
+
+/* 
 .project1{
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+
+  align-content: center;
+  justify-content: center;
+
+
 }
 
 .project2{
   display: flex;
   justify-content:center;
+  align-content: center;
+
 
 }
 
 .project3{
-  display: flex;
-  justify-content: space-evenly;
-
-}
-
-
+  display: grid;
+  justify-content:center;
+  align-content: center;
+  padding-left: 10px;
+} */
 
 
 
@@ -165,14 +199,6 @@ ul {
 
 
 
-footer {
-  background-color: #ffffff;
-  width: 100%;
-  bottom: 0;
-  padding: 20px;
-  text-align: center;
-
-}
 
 
 
