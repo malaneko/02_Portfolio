@@ -9,7 +9,7 @@ body {
   margin: 0;
   padding-bottom: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #b1b1b1;
+  background-color: #e0e0e0;
   flex-direction: column;
 }
 
@@ -38,7 +38,7 @@ nav ul a{
 
 h1 {
   margin: 0px;
-  padding: 20px;
+  padding: 100px;
   color: #6e7070;
 }
 
@@ -50,53 +50,77 @@ h1 {
   padding-top: 10px;
 }
 
-
-
-/* 
-
-<div class="containerGrid">
-<div class="leftPart">About me</div>
-
-<div class="rightPatr">Contact me</div>
-
-<div class="belowContent">About me</div>
-
-
-</div>
- */
-
-
-
 .containerGrid{
   display: grid; 
-  margin: 0px 2%;
+  align-items: space-evenly;
+padding-bottom: 0px ;
+  margin: 4% 4%;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas: 
       'leftPart leftPart rightPart'
       'belowContent belowContent belowContent'
       ;
-      
+  
 }
   
 .leftPart{
   grid-area: leftPart;
-  margin: 0px 5%;
-  padding: 50px;
+  margin: 0px 3%;
+
+  padding-bottom: 0px;
 }
 
 .rightPart{
   grid-area: rightPart;
-  margin: 2px 5%;
-  padding: 50px;
+  margin: 0px 6%;
+
+  padding-bottom: 0px;
 }
 
+
 .belowContent{
+  display: grid;
+  align-items: space-evenly;
   grid-area: belowContent;
-  margin: 0px 3%;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px;
+  margin: 0px 2%;
+
+
+  padding-top: 0px;
 }
+
+.myWork{
+  margin: 0px 3%;
+  padding: 0px;
+  padding-bottom: 0;
+}
+
+.myProjects{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+
+
+.project1{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.project2{
+  display: flex;
+  justify-content:center;
+
+}
+
+.project3{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
 
 
 
@@ -142,12 +166,12 @@ ul {
 
 
 footer {
-  margin-top: auto;
   background-color: #ffffff;
   width: 100%;
   bottom: 0;
   padding: 20px;
   text-align: center;
+
 }
 
 
